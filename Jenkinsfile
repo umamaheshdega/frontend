@@ -1,10 +1,10 @@
 pipeline {
-    agent { label 'AGENT-1' }
+    agent { label 'Nodejs' }
     environment { 
         PROJECT = 'expense'
         COMPONENT = 'frontend'
         appVersion = ''
-        ACC_ID = '315069654700'
+        ACC_ID = '439307002497'
     }
     options {
         disableConcurrentBuilds()
